@@ -1,0 +1,43 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 2</title>
+
+  <!-- BOOSTRAP CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+    crossorigin="anonymous"
+  />
+</head>
+
+<form class="p-1">
+  <div class="form-group">
+    <label for="reserva">Genarador de Contraseñas</label>
+  </div>
+  <div class="form-group">
+    <input
+      type="number"
+      class="form-control"
+      id="len"
+      placeholder="Longitud de la contraseña:"
+      min="5"
+      max="20"
+    />
+  </div>
+  <div class="form-group">
+    <input
+      type="button"
+      class="btn btn-primary"
+      onclick="ejercicio13(event)"
+      value="Generar"
+    />
+  </div>
+
+  <!--Label respuesta-->
+  <div class="form-group">
+    <label id="result-otro-2"></label>
+  </div>
+</form>
+<script src="js/scripts.js"></script>

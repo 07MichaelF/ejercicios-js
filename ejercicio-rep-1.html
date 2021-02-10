@@ -1,0 +1,50 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <!-- BOOSTRAP CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+    crossorigin="anonymous"
+  />
+</head>
+
+<form class="p-1">
+  <div class="form-group">
+    <label for="reserva">Reserva de Combustible</label>
+    <input type="number" class="form-control" id="reserva" />
+    <input
+      type="button"
+      class="btn btn-primary"
+      onclick="ejercicio8agg()"
+      value="Agregar"
+    />
+  </div>
+  <div class="form-group">
+    <label for="despacho">Despacho de Combustible</label>
+    <input type="number" class="form-control" id="despacho" /><input
+      type="button"
+      class="btn btn-secondary"
+      onclick="ejercicio8desp(event)"
+      value="Despachar"
+    />
+  </div>
+
+  <!--Label respuesta-->
+  <div class="form-group">
+    <label>Litros restantes: <label id="result-rep-1-litros"> 0</label></label>
+  </div>
+  <div class="form-group">
+    <label>Autos atendidos: <label id="result-rep-1-autos"> 0</label></label>
+  </div>
+  <div class="form-group">
+    <label>Dinero recaudado: <label id="result-rep-1-total"> 0</label></label>
+  </div>
+  <div class="form-group">
+    <label>Mayor consumo: <label id="result-rep-1-despachado">0 </label></label>
+  </div>
+</form>
+<script src="js/scripts.js"></script>

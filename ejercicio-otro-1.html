@@ -1,0 +1,33 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <!-- BOOSTRAP CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+    crossorigin="anonymous"
+  />
+</head>
+<form class="p-1">
+  <div class="form-group">
+    <button id="grabar" class="btn btn-primary">Grabar</button>
+    <button id="parar" class="btn btn-primary" style="visibility: hidden">
+      Escuchando...
+      <div class="spinner-grow spinner-grow-sm" role="status" id="cargando">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </button>
+  </div>
+
+  <!--Label respuesta-->
+  <div class="form-group">
+    <label id="result-otro-1"></label>
+  </div>
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="js/voz.js"></script>

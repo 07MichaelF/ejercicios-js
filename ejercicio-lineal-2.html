@@ -1,0 +1,38 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  
+    <!-- BOOSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+  </head>
+  
+  <form class="p-1" onsubmit="ejercicio2(event)">
+    <div class="form-group">
+      <label for="tiempo">Tiempo de caida</label>
+      <input
+        type="number"
+        class="form-control"
+        id="tiempo"
+      />
+    </div>
+  
+    <!--Label respuesta-->
+    <div class="form-group">
+      <label id="result-lineal-2"> </label>
+    </div>
+  
+    <footer class="pt-2 my-md-5 pt-md-5 border-top">
+      <button type="submit" class="btn btn-primary" id="btn-calcular">
+          Calcular
+        </button>
+    </footer>
+    
+  </form>
+  <script src="js/scripts.js"></script>
+  

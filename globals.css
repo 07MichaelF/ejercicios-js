@@ -1,0 +1,26 @@
+iframe {
+  border: none;
+}
+
+.card {
+  margin: 16px;
+  border: solid 1px #ececec !important;
+  border-radius: 8px !important;
+}
+#id-info {
+  width: 30px;
+  height: 30px;
+  background-image: url(/Img/info_96px.png);
+  background-size: cover;
+  background-color: transparent;
+  border: transparent;
+  transition: 0.5s;
+}
+
+footer{
+  background-color: #e9ecef;
+}
+.accordion {
+  margin: 20px;
+  padding: 8px;
+}
